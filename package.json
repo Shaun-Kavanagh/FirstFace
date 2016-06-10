@@ -1,0 +1,43 @@
+{
+    "author": "shaunkav2010@hotmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "firstface",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "FirstFace",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9:.]",
+                    "file": "fonts/font",
+                    "name": "Font42",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/shaman",
+                    "name": "shaman",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "686579f2-84b5-43e6-b628-ee47488fc380",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
